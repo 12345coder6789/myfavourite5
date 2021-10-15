@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background: linear-gradient(lightblue, pink, chartreuse, deepskyblue);
+ font-family: 'Style Script', cursive;
+     text-shadow: 2px 2px #fb8779;
+}
+.bio1{
+    font-size: 20px;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Style Script', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    color: aqua;
+}
+
+.paragraph {
+    text-align: center;
+    color: darkturquoise;
+    font-family: 'Style Script', cursive;
+
+}
+
+img {
+    text-align: center;
+    height: 200px;
+    width: 250px;
+}
+
+li {
+    display: inline;
+}
+
+.menu {
+    list-style: none;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10px;
+    color: antiquewhite;
+}
+
+.plantsi {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+.plantsi:hover {
+    transform: scale(0.89);
+}
+
+
+.link {
+    float: left;
+    color: chartreuse;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: deeppink;
+    text-decoration: underline;
+}
+
+.bio {
+    display: inline;
+}
+
+#about {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#plants {}
+
+#videos {
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(253, 255, 175, 1) 35%, rgba(159, 255, 28, 1) 74%, rgba(24, 255, 38, 1) 87%, rgba(41, 255, 91, 1) 100%);
+}
+
+#books {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(250,29,253,1) 0%, rgba(251,135,121,1) 37%, rgba(252,176,69,1) 71%, rgba(252,216,69,1) 96%);
+}
